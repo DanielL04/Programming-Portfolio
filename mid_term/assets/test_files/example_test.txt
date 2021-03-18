@@ -1,0 +1,161 @@
+Test of Knowledge/ Daniel Lehman 4/5
+OOP
+In Python, what is an object called
+class
+method
+variable
+method
+1
+Because it is
+OOP
+Where should your class definitions go in your source code?
+Near the top of the code 
+Right after the class is used in the program 
+It does not matter where the class definition is located in the source code 
+At the end of the program 
+1
+Number 1 because it's the best practice as programmers
+OOP
+Which keyword is used to create a method inside a class definition?
+def 
+function 
+class 
+method 
+1
+Because function is in java script, method isn't a thing in python, class is a diferent thing
+OOP
+Data that is held in class variables is also referred to by what term(s)?
+class or object 
+property or attribute 
+OOP 
+method or function 
+2
+Because property and attributes are data and functions and methods are declaration in a class.
+OOP
+Which type of object relationship is best described as having one object "own" another object as part of the internal data?
+"Is-A"
+"Uses-A"
+"Has-A"
+"Like-A"
+3
+It has an attribute and doesn't do anything with it.
+Imports
+When creating a date, time or datetime object, which integer parameter should range between 1 and 12?
+day 
+minute 
+month 
+year 
+3
+Because there are 12 months in a year
+Imports
+The datetime strftime() function is capable of creating a string in which of the following styles?
+Monday, January 19, 2004 
+Mon Jan 19 13:30:00 2004 
+2004-01-19 01:30:00 PM 
+All of the above
+4
+All of them are correct
+Imports
+A timedelta object does NOT contain which of the following properties?
+years 
+days 
+seconds 
+microseconds 
+1
+Because it's not a built in class
+Imports
+Which of the following statements will successfully initialize a timedelta object?
+myDelta = datetime.timedelta(days=10, hours=20, minutes=40) 
+myDelta = datetime.timedelta(days=10) 
+All of these will work  
+myDelta = datetime.timedelta(minutes=10, seconds=30)
+3
+Because they are all valid arguments
+imports
+Which of the following statements will let you use the random library functions in your code?
+use random 
+import random 
+random.randrange() 
+rand 
+2
+Because it imports a random function
+Code Format
+Python will run your program statements in what order?
+From bottom to top
+From right to left
+From top to bottom
+From shortest to longest
+3
+Number 3 because it is easier for humans to understand when writing code.
+Programmer Lingo
+What general term to software engineers use to describe errors in programs?
+Breakpoints
+Bugs
+Tracepoints
+Flops
+2
+Number 2 because before coding was all digital there were bugs that would sneak into the computer causing problems and it stuck for the community.
+Debugging
+What is wrong with the following code? age = int( input (How old are you?) )
+It is missing double quotes around the input() string parameter
+It will throw an exception at runtime due to the nested function calls
+It does not correctly assign the result value to the variable
+Nothing is wrong; the statement will run successfully
+1
+Number 1 because the argument that the input statement takes is a string.
+Functions
+Which of the following statements will return the number of items in a list named "marbles"?
+len(marbles)
+marbles.length
+marbles.size()
+size(marbles)
+1
+Number 1 because size isn't a function in python and .length is in other languages, but not python.
+Lists
+Which of the following list functions will NOT work on a tuple?
+These will all work on a tuple
+index()
+count()
+pop()
+4
+Number 4 because a tuple can't be mutated and pop deletes a certain element in a list.
+Programming techniques
+What software philosophy uses software objects to organize re-usable code and to represent real-world concepts or things?
+Object-Oriented Programming 
+Structured Programming 
+Python Zen 
+Console Programming 
+1
+Because it allows the user to reuse code
+OOP
+When a function is defined within a class, what is it called
+variable 
+object 
+value 
+method 
+4
+Because thats what it's called by programmers
+Loops
+How long will a "while" loop continue iterating?
+For the number of times specified in the range()
+As long as the loop index variable is equal to False
+An infinite number of times; there is no way to break out of a "while" loop
+As long as the loop's logical expression is True
+4
+Number 4 because the syntax makes sense with, while running is true, it will keep going.
+Loops
+Which keyword would you use to halt the current loop iteration and immediately continue at the top of the loop again?
+break
+continue
+return
+jump
+2
+Number 2 because return will leave the loop if in a function, and break will leave without being in a function. Jump doesn't exist.
+Functions
+A function's input parameters are treated as _____ scope variables.
+local
+global
+international
+general
+1
+Number 1 because local refers to only be used inside the function and won't be recognized outside of the function.
